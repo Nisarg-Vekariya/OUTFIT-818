@@ -64,8 +64,8 @@ class CheckoutController extends Controller
             return $sizePrice * $item->quantity;
         });
 
-        $appId = 'TEST10714352982ad19c0ced7ada443025341701';
-        $secretKey = 'cfsk_ma_test_d4d6c036cd7ba36e21538af94905e6cd_83a204bc';
+        $appId = 'User Your API';
+        $secretKey = 'User Your API';
         $orderId = 'ORDER_' . uniqid();
 
         $data = [
